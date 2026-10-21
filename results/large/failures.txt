@@ -1,0 +1,10 @@
+Trigram (k=0.1) top-5 misses (context -> true word | suggestions):
+  'the doctors like the lemonade' -> 'near' | ['.', '?', 'at', 'in', 'behind']
+  'the doctors like the lemonade near the' -> 'sleepy' | ['market', 'village', 'city', 'museum', 'school']
+  'the doctors like the lemonade near the sleepy' -> 'museum' | ['students', 'children', 'drivers', 'ducks', 'farmers']
+  'the doctors like the lemonade near the sleepy museum' -> 'in' | ['.', '</s>', '?', 'afternoon', 'and']
+  'the' -> 'clever' | ['students', 'drivers', 'parents', 'girls', 'doctors']
+  'the clever students' -> 'explore' | ['want', 'buy', 'forget', 'leave', 'love']
+
+Test positions whose trigram context never appears in training: 165
+  examples: ['angry juice', 'angry key', 'artists by', 'artists make', 'artists meet']

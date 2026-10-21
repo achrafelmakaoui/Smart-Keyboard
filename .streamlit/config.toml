@@ -1,0 +1,9 @@
+# Streamlit theme for the Smart Keyboard app
+[theme]
+# Outfit from Google Fonts, used for body text and headings
+font = "Outfit:https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+headingFont = "Outfit:https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+baseFontSize = 16
+baseFontWeight = 300
+headingFontWeights = [600, 600, 500, 500, 500, 500]
+headingFontSizes = ["2.4rem", "1.6rem", "1.25rem", "1.1rem", "1rem", "0.9rem"]
